@@ -13,7 +13,7 @@ public class ContextBase : IdentityDbContext<ApplicationUser>
 {
     public ContextBase(DbContextOptions<ContextBase> options) : base(options)
     {
-        _connectionString = "Data Source=ENIAC\\SQLEXPRESS;Initial Catalog=SistemaLanches;Integrated Security=True;TrustServerCertificate=True";
+        _connectionString = "Data Source=ENIAC\\SQLEXPRESS;Initial Catalog=API_DDD;Integrated Security=True;TrustServerCertificate=True";
 
     }
 
